@@ -48,10 +48,10 @@ The chatbot is trained using the Hugging Face's `Trainer` class. The `TrainingAr
 training_args = TrainingArguments(
     output_dir="./DialoGPT-chatbot-emotion-aware",
     overwrite_output_dir=True,
-    num_train_epochs=1,
+    num_train_epochs=10,
     per_device_train_batch_size=16,
     per_device_eval_batch_size=64,
-    warmup_steps=500,
+    warmup_steps=0,
     weight_decay=0.01,
     learning_rate=5e-5,  
     lr_scheduler_type=SchedulerType.COSINE, 
