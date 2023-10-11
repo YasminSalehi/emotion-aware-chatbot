@@ -1,8 +1,4 @@
-## Project Report: Emotion-Aware Chatbot
-
-Code available at: 
-
-https://drive.google.com/drive/folders/1rKa9wHlLbDrMA_N4QaDylWPylipOUeT3?usp=sharing
+## Emotion-Aware Chatbot
 
 ### Introduction
 
